@@ -1,3 +1,5 @@
+package com.example.lab01b;
+
 public enum Weapon {
 
     ROCK("Rock"),
@@ -9,8 +11,10 @@ public enum Weapon {
         message = msg;
     }
 
+
     @Override
     public String toString() {
         return message;
     }
 }
+
